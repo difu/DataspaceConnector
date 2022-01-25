@@ -4,9 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## [X.X.X] - XXXX-XX-XX
 
-### Changed
+### Added
+- Add `mvn-local` directory and allow the usage of locally published artifacts in the `pom.xml`.
+- Add maven dependencies for velocity, idscp2-tpm2d, idscp2-cmc, grpc-netty, and netty.
+- Add functionality to run the Connector with remote attestation.Changed
 - Increase equalsverifier version from 3.8.3 to 3.9.
 - Increase postgresql version from 42.3.1 to 42.3.2.
+
+### Changed
+- Update `.dockerignore`, `docker-compose.yml` and `Dockerfile`.
+- Increase camel-idscp2 version from 0.6.0 to 0.9.1.
 
 ## [7.0.0] - 2022-01-31
 
